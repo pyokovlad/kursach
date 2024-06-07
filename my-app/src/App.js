@@ -1,18 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from '/workspaces/kursach/my-app/src/components/navbar/navbar.js'
-import slide from '/workspaces/kursach/my-app/src/components/img/Frame 1.png'
+import FusionPC from '/workspaces/kursach/my-app/src/components/fusionpc/fusionpc.js'
 
 
 function App() {
   return (
     <div>
-      < Navbar />
-      <div>
-        <div><img src={slide}></img></div>
+      <div class='main'>
+        <div id="navbar">
+          < Navbar />
+        </div>
+        <div id="fusionpc">
+          < FusionPC />
+        </div>
+      </div>
+
+      <div class="advantage">
+        
       </div>
     </div>
-    
   );
 }
 

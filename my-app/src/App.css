@@ -2,14 +2,29 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:  "Jost", sans-serif;
+ 
 }
-body {
-  min-height: 100vh;
-  background: url('/workspaces/kursach/my-app/src/components/img/Rectangle 20.jpg') no-repeat;
+
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  width: 100vw;
+  height: 100vh;
+  background: url('/workspaces/kursach/my-app/src/components/img/Rectangle 20.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  
 }
+
+#fusionpc {
+  margin-top: auto;
+}
+
+
 
 
 
